@@ -10,6 +10,10 @@ main {
 
 header {
     text-align: center;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 nav {
@@ -18,4 +22,14 @@ nav {
     align-items: center;
     width: 100%;
     justify-content: center;
+}
+
+a {
+    color: darkgoldenrod;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+a:hover {
+    color: navy;
+    transform: rotate(-5deg);
 }
